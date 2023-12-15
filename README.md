@@ -5,7 +5,7 @@
 
 ## 👻 Team
 
-|[![ajeng518](https://github.com/tnatna0801/rehabilitation_algorithm/assets/48270067/86cef0ff-957e-4de3-b9ac-5a0d8b26e776)](https://github.com/ajeng518)|[![tddudwns1](https://github.com/tnatna0801/rehabilitation_algorithm/assets/48270067/f83a0c6c-27c8-41e4-85c5-b92d4a7194f3)](https://github.com/tddudwns1)|[![tnatna0801](https://github.com/tnatna0801/rehabilitation_algorithm/assets/48270067/6a98d116-e667-44e2-8a69-f2712f0a3267)](https://github.com/tnatna0801)|
+|[![ajeng518](https://github.com/JaMongDan/rehabilitation_algorithm/assets/48270067/0962c74d-5895-45db-9cf9-a9e304964e84)](https://github.com/ajeng518)|[![tddudwns1](https://github.com/JaMongDan/rehabilitation_algorithm/assets/48270067/40a28304-9c19-4352-8e19-61b222f19e19)](https://github.com/tddudwns1)|[![tnatna0801](https://github.com/JaMongDan/rehabilitation_algorithm/assets/48270067/5a1e9ba2-efa2-4fcf-aa47-901ad9102895)](https://github.com/tnatna0801)|
 |:-:|:-:|:-:|
 |[여아정](https://github.com/ajeng518)|[성영준](https://github.com/tddudwns1)|[김수민](https://github.com/tnatna0801)
 
