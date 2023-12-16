@@ -17,8 +17,7 @@ public class boj_14719_빗물 {
 
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < w; i++)
-            if (max < (blocks[i] = Integer.parseInt(st.nextToken())))
-                max = blocks[i];
+            max = Math.max(max, (blocks[i] = Integer.parseInt(st.nextToken())));
 
         int puddle = 0;
 
