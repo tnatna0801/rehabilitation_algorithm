@@ -48,6 +48,6 @@ public class boj_1806 {
                 }
             }
         }
-        System.out.println(answer);//정답 출력해주새우
+        System.out.println(answer);//정답 출력해주
     }
 }
