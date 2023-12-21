@@ -5,9 +5,10 @@
 
 ## 👻 Team
 
-|[![ajeng518](https://github.com/JaMongDan/rehabilitation_algorithm/assets/48270067/0962c74d-5895-45db-9cf9-a9e304964e84)](https://github.com/ajeng518)|[![tddudwns1](https://github.com/JaMongDan/rehabilitation_algorithm/assets/48270067/40a28304-9c19-4352-8e19-61b222f19e19)](https://github.com/tddudwns1)|[![tnatna0801](https://github.com/JaMongDan/rehabilitation_algorithm/assets/48270067/5a1e9ba2-efa2-4fcf-aa47-901ad9102895)](https://github.com/tnatna0801)|
+|[![ajeng518](https://github.com/JaMongDan/rehabilitation_algorithm/assets/48270067/4387ae38-0abe-4232-91f6-c3dad8cc8845)](https://github.com/ajeng518)|[![tddudwns1](https://github.com/JaMongDan/rehabilitation_algorithm/assets/48270067/b280d711-7339-4fea-9b91-4546acd2c0aa)](https://github.com/tddudwns1)|[![tnatna0801](https://github.com/JaMongDan/rehabilitation_algorithm/assets/48270067/5a1e9ba2-efa2-4fcf-aa47-901ad9102895)](https://github.com/tnatna0801)|
 |:-:|:-:|:-:|
-|[여아정](https://github.com/ajeng518)|[성영준](https://github.com/tddudwns1)|[김수민](https://github.com/tnatna0801)
+|[여아정](https://github.com/ajeng518)|[성영준](https://github.com/tddudwns1)|[김수민](https://github.com/tnatna0801)|
+|[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=yaj518)](https://solved.ac/yaj518)|[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=tddudwns1)](https://solved.ac/tddudwns1)|[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=tbasl)](https://solved.ac/tbasl)|
 
 
 ## 🦖 Git Commit Message
