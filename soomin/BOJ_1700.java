@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
+// 왜인지는 모르겠지만 PR이 closed 되어서 다시 올립니다.
 public class BOJ_1700 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
