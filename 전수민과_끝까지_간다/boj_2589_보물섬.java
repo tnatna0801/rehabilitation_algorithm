@@ -106,5 +106,7 @@ class Coordinate1 {
         this.x = x;
         this.y = y;
     }
+
+    /// 다시 push 하기 위한 주석 
 }
 
