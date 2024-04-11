@@ -76,7 +76,7 @@ public class Main {
     }
 
 }
-
+// 좌표 Class
 class Coordinate {
     int x;
     int y;
