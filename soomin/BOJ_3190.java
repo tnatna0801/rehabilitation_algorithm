@@ -4,14 +4,17 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class BOJ_3190 {
+
+    static int[][] map;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
         int K = Integer.parseInt(br.readLine());
 
-        // 사과의 위치
-        int[][] map = new int[N+1][N+1];
+        // 사과의 위치 (뱀 위치도...)
+        map = new int[N+1][N+1];
 
         for(int i =0; i<K; i++){
             StringTokenizer st = new StringTokenizer(br.readLine());
@@ -33,6 +36,10 @@ public class BOJ_3190 {
         }
 
         // play
+        System.out.println(play(N, info));
+    }
+
+    private static int play(int N, Map<Integer, String> info) {
         int time = 0;
         int direction = 0; // 0: 오른쪽, 1: 아래, 2: 왼쪽, 3: 위쪽
         int[][] move = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
@@ -69,8 +76,7 @@ public class BOJ_3190 {
                     direction = (direction + 1) % 4;
                 }
                 else { // 왼쪽으로 90도
-                    direction -= 1;
-                    if(direction < 0) direction = 3;
+                    direction = ((direction - 1) + 4) % 4;
                 }
             }
 
@@ -81,7 +87,6 @@ public class BOJ_3190 {
             x = nx;
 
         }
-
-        System.out.println(time);
+        return time;
     }
 }
