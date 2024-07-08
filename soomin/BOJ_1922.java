@@ -4,19 +4,20 @@ import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-class Edge {
-    int a;
-    int b;
-    int w;
-
-    Edge(int a, int b, int w) {
-        this.a = a;
-        this.b = b;
-        this.w = w;
-    }
-}
 
 public class BOJ_1922 {
+
+    static class Edge {
+        int a;
+        int b;
+        int w;
+
+        Edge(int a, int b, int w) {
+            this.a = a;
+            this.b = b;
+            this.w = w;
+        }
+    }
 
     static int[] p;
     static int min;
