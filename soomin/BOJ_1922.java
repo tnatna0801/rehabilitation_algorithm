@@ -66,9 +66,9 @@ public class BOJ_1922 {
         b = find(b);
 
         if (a == b) return false; // 같은 root를 가지고 있다면 싸이클이 존재하게됨
-        else {
-            p[b] = a; // 부모 집합에 포함
-        }
+
+        p[b] = a; // 부모 집합에 포함
+
         return true;
     }
 
