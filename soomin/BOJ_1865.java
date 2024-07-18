@@ -65,8 +65,6 @@ public class BOJ_1865 {
 
         // 시작점이 따로 없다. 모두 0(시작점)으로 해서 동시에 벨만포드 알고리즘을 수행함
         time = new int[N + 1];
-        Arrays.fill(time, INF);
-        time[0] = 0; // 가상의 시작점
 
         for (int i = 0; i < N; i++) {
             boolean updated = false;
