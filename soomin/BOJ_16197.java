@@ -33,14 +33,14 @@ public class BOJ_16197 {
 
         char[][] map = new char[N + 2][M + 2];
         for(int i = 0; i<map.length; i++)
-            Arrays.fill(map[i], 'x');
+            Arrays.fill(map[i], 'x'); // 범위 밖을 편리하게 구하기 위함
 
         List<Coin> coins = new ArrayList<>();
         for (int i = 1; i <= N; i++) {
             char[] line = br.readLine().toCharArray();
             for (int j = 1; j <= M; j++) {
                 map[i][j] = line[j-1];
-                if (map[i][j] == 'o') coins.add(new Coin(i, j));
+                if (map[i][j] == 'o') coins.add(new Coin(i, j)); // 동전 위치 파악
             }
         }
 
@@ -59,15 +59,15 @@ public class BOJ_16197 {
             if(count == 11) break;
             int size = q.size();
 
-            while (size-- > 0) {
+            while (size-- > 0) { // 버튼을 누른 횟수를 제대로 세기 위함
 
                 moveCoin now = q.poll();
 
                 for (int d = 0; d < 4; d++) {
-                    int ny1 = now.y1 + move[d][0];
+                    int ny1 = now.y1 + move[d][0]; // 동전 1의 위치
                     int nx1 = now.x1 + move[d][1];
 
-                    int ny2 = now.y2 + move[d][0];
+                    int ny2 = now.y2 + move[d][0]; // 동전 2의 위치
                     int nx2 = now.x2 + move[d][1];
 
                     // 동전이 둘다 떨어지면 안됨
@@ -90,8 +90,10 @@ public class BOJ_16197 {
                         nx2 = now.x2;
                     }
 
+                    // 방문했었더라면
                     if(visited[ny1][nx1][ny2][nx2]) continue;
 
+                    // 다음 탐색 위치
                     q.add(new moveCoin(ny1, nx1, ny2, nx2));
                     visited[ny1][nx1][ny2][nx2] = true;
                 }
