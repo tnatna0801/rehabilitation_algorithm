@@ -22,16 +22,20 @@ public class BOJ_1038 {
         // 그래서 하나도 선택안한 경우 1개를 빼서 총 1023개임
         // => 예를 들어서 420이라는 감소하는 수는 9876531을 선택하지 않고 420을 선택한것이죵
         StringBuilder sb = new StringBuilder();
-        if(N > 1022) sb.append(-1); // 감소하는 수의 최댓값을 넘었기 때문에 -1 반환
-        else if (N < 11) sb.append(N); // 한자리 수는 그대로 반환
+
+        if (N < 11) sb.append(N); // 한자리 수는 그대로 반환
         else { // 찾자...감소하는 수
 
             for(int i = 0; i<10; i++) { // i: 현재 자릿수의 시작 숫자
                 findNum(1, i); // 1: 숫자가 들어가는 자리!
             }
             Collections.sort(list);
-            sb.append(list.get(N));
+
+            if(list.size() <= N) sb.append(-1); // N이 최댓값을 넘어버렸을때
+            else sb.append(list.get(N));
+
         }
+
 
         System.out.println(sb);
 
