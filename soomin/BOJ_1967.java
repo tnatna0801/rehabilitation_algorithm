@@ -49,6 +49,8 @@ public class BOJ_1967 {
         visited[1] = true;
         dfs(1, 0);
 
+        max = 0;
+
         // 찾은 리프노드를 기준으로 경로를 계산
         visited = new boolean[n + 1];
         visited[maxIndex] = true;
