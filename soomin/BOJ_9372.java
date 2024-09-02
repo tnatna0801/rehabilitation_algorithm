@@ -36,6 +36,12 @@ public class BOJ_9372 {
         System.out.println(sb);
     }
 
+    /**
+     * bfs로 국가 순회
+     * @param N
+     * @param schedule
+     * @return
+     */
     private static int bfs(int N, List<Integer>[] schedule) {
         Queue<Integer> q = new ArrayDeque<>();
         boolean[] visited = new boolean[N+1];
